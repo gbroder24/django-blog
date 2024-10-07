@@ -1,7 +1,7 @@
 from django.contrib import admin
+from django_summernote.admin import SummernoteModelAdmin
 from .models import About
 from .models import CollaborateRequest
-from django_summernote.admin import SummernoteModelAdmin
 
 
 @admin.register(About)
